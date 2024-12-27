@@ -1,0 +1,737 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "tools" : [
+      {
+        "vendor" : "CycloneDX",
+        "name" : "cyclonedx-gradle-plugin",
+        "version" : "1.8.1"
+      }
+    ],
+    "component" : {
+      "group" : "com.mendix",
+      "name" : "temp",
+      "version" : "1.0.0",
+      "purl" : "pkg:maven/com.mendix/temp@1.0.0?type=jar",
+      "type" : "application",
+      "bom-ref" : "pkg:maven/com.mendix/temp@1.0.0?type=jar"
+    }
+  },
+  "components" : [
+    {
+      "publisher" : "Chemouni Uriel",
+      "group" : "net.minidev",
+      "name" : "json-smart",
+      "version" : "2.4.10",
+      "description" : "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "36e22527b5f44ea6f0ff3086608cbf38"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "91cb329e9424bf32131eeb1ce2d17bf31b9899bc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "70cab5e9488630dc631b1fc6e7fa550d95cddd19ba14db39ceca7cabfbd4e5ae"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "de94fc5a379151bf659dfc93376c16b9c200870b7097f6eabcc8c40af41e47f30048b6c8e28f07ce073123841b979e050379e291e1af782377bf4d3d1fb73494"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f19a1b12a53838c87333b9aebf2daae2db90a2b8c07b61883504261b71889d4a93c2a99d7cd810f409a046442398bb3f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d307625b91251180af2192912d355ca94558452e7229c4ec124b60ee4461d8fa3633bdcf1a8dc5187c6ef56e08d95b2c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8fc624331b658c62604acbc51ccef1edf614934a1e2153e55740d56aa61ef0f3"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b397350303725a583d56c0f204b2452337b6543754b91fbe8699af6e4a02f2cdb6dd60703e3970a26e040db4cefe8d5049f306607156721b95d72994fa864517"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/net.minidev/json-smart@2.4.10?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://urielch.github.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netplex/json-smart-v2"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/net.minidev/json-smart@2.4.10?type=jar"
+    },
+    {
+      "group" : "org.apache.commons",
+      "name" : "commons-lang3",
+      "version" : "3.12.0",
+      "description" : "Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "19fe50567358922bdad277959ea69545"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d919d904486c037f8d193412da0c92e22a9fa24230b9d67a57855c5c31c7e94e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "fbdbc0943cb3498b0148e86a39b773f97c8e6013740f72dbc727faeabea402073e2cc8c4d68198e5fc6b08a13b7700236292e99d4785f2c9989f2e5fac11fd81"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c34b8a0e0eba2168ad56fedeb7a1d710b6f1d3f1ce6aae99a4e0247bd120efbbadc8dcb2f731045b8a16e3efd30604dc"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8ad6ebe7754bf0caa8cda7e59c0e95360d76e06a7ad6aeec5637985519dbd1dd06e7eed04711039f36ec4c49de280def"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "18ef639b2aeeb5aedffb18dbf20c79f33e300d99fb31b131689639cc470e6e4c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "fbea96114dcf4f31cfaaa99987be756ddda3a6c74f8c835461997df794d54b92da1f60fe5c3f1f2a43cb8c5f5db7f4048bef77c70993673c7a93f3660fffc8da"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LANG"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-lang.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+    },
+    {
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm",
+      "version" : "9.3",
+      "description" : "ASM, a very small and fast Java bytecode manipulation framework",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e1c3b96035117ab516ffe0de9bd696e0"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8e6300ef51c1d801a7ed62d07cd221aca3a90640"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1263369b59e29c943918de11d6d6152e2ec6085ce63e5710516f8c67d368e4bc"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "04362f50a2b66934c2635196bf8e6bd2adbe4435f312d1d97f4733c911e070f5693941a70f586928437043d01d58994325e63744e71886ae53a62c824927a4d4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "304aa6673d587a68a06dd8601c6db0dc4d387f89a058b7600459522d94780e9e8d87a2778604fc41b81c43a57bf49ad6"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9744884ed03ced46ed36c68c7bb1f523678bcbb4f32ebeaa220157b8631e862d6573066dfc2092ed77dc7826ad17aef2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2be2d22fdbafe87b7cdda0498fc4f45db8d77a720b63ec1f7ffe8351e173b77b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a3ff403dd3eefbb7511d2360ab1ca3d1bf33b2f9d1c5738284be9d132eb6ad869f2d97e790ed0969132af30271e544d3725c02252267fe55e0339f89f3669ce1"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm@9.3?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.ow2.org/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm@9.3?type=jar"
+    },
+    {
+      "publisher" : "Connect2id Ltd.",
+      "group" : "com.nimbusds",
+      "name" : "nimbus-jose-jwt",
+      "version" : "9.30.2",
+      "description" : "Java library for Javascript Object Signing and Encryption (JOSE) and JSON Web Tokens (JWT)",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0ff69202fafb9707b3951ec3bd2bf5e3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3a291d6af4007fd88df384249378130102912385"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1c5f3d94cd3d77d6176f854f1c78eb658cfb83ef803f0da54fb479f5614971ef"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "eb4488556163033f6dbe158c168b2294a0994869c365620c719a191372f5c49e874a5d42418a8d88011b3fdf2cbf25ee04884c9903b22bf96fc3dd9f7a60c583"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "bb88f8d4a0406f754bf1701f4fafe13fffc4aa78db37d51140575b86a58dab54aa78ae8267ec186fdbcdc7cf47263085"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "83d320fa309dacfedd3948fa8c1c158163aa23e4252481f95b6ce793c825fb222ed6c5f1215018f6df43588a7c81afff"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9cef9d15d03673cd3015b735ffbc34c969f75a03754bc83a29f0e63737c38b81"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "768bede4695fcdbd945db0fb303dfab7a45c0585347aa1734acbfee4d38c9bcc664bcad83b93ea83c64a460215472ee3b517f0bcd5e3fe176eac690d0d505c41"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.30.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://connect2id.com"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://bitbucket.org/connect2id/nimbus-jose-jwt"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.30.2?type=jar"
+    },
+    {
+      "publisher" : "Chemouni Uriel",
+      "group" : "net.minidev",
+      "name" : "accessors-smart",
+      "version" : "2.4.9",
+      "description" : "Java reflect give poor performance on getter setter an constructor calls, accessors-smart use ASM to speed up those calls.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "339685c20dcac95c4f5b59e70daadc0e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "32e540749224c22c9b17de8137e916aae9057e22"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "accdd5c7ac4c49b155890aaea1ffca2a9ccd5826b562dd95a99fc1887003e031"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "41e7910e89550f0118c1b7d3a2e9bd24cff299f3d935616f604d29fe74276b2315846380fae2e83bb5785263a860e6973052d8906cddf1c8d2bc9e30a95785bf"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "87bdf64342462a2b4b899e620b056e4a06ee5f73106efa0e0a183b83280d5558d57ce0afc1f189d7c65b5400e76821e7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "021318accea13e9ee1c8589d02e9be7a46963f77f3a1b8ca862de3dd4755dd8db9ac9f878677eafd6ec9b8cc2495608b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "15f09e1dede5a8672d07566a01f23eae5f4d76c5a255a71163c6b43a7cdbdf35"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "bc5b1938f12c2533c5edd51a5da3784d5087f2f7369302a36cf222b9689ce400d722a92b7fd252c1b5f169294d0d3ff18c62b78de64a43092263b129a55f2c26"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/net.minidev/accessors-smart@2.4.9?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://urielch.github.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netplex/json-smart-v2"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/net.minidev/accessors-smart@2.4.9?type=jar"
+    },
+    {
+      "publisher" : "Connect2id Ltd.",
+      "group" : "com.nimbusds",
+      "name" : "oauth2-oidc-sdk",
+      "version" : "10.7.1",
+      "description" : "OAuth 2.0 SDK with OpenID Connection extensions for developing client and server applications.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7cefddc7eb92714eba1c7216729959f7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "26dc5a9fb491609d85931b472aba6441bd665314"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f03b2ba8a501cc87e1b907106dbb2e53bc2b7cff8352d0ba8268b636f8555dda"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "dc414818766766e91b34bf311f742aa169f26ef5aad1a8ec174f739cda9934337eba826fd3fb5b9ef847aa3cb6156196f1cc7a4ae23f016c92ee5764bf6ad0dd"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1fa5ca4289321ed94dbc9053965f92fa57b3fd1ac362570e181fffe5c4bdc73c00f9a582bf55351961861ad166248a3b"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fe0f4461196be7773dcd71f0017724debe37718079d2916eb3759f3b124a73c766625bbbc3e535926c63d0d2b869afae"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "987a8a4c148d82aeba52dc9b69cfb4fa9ec09126081cc8117a0b4f5bbe3eae30"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "27074419f36699e3e13d74f632e595413496ca9767ed664a5ca61f3d888585e05dc08e21e9bfe7054163c739d9b4bd3d97c8bea1386cc58d5b15c4c8fbc3aef6"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.nimbusds/oauth2-oidc-sdk@10.7.1?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://connect2id.com"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://bitbucket.org/connect2id/oauth-2.0-sdk-with-openid-connect-extensions"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.nimbusds/oauth2-oidc-sdk@10.7.1?type=jar"
+    },
+    {
+      "group" : "com.github.stephenc.jcip",
+      "name" : "jcip-annotations",
+      "version" : "1.0-1",
+      "description" : "A clean room implementation of the JCIP Annotations based entirely on the specification provided by the javadocs.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d62dbfa8789378457ada685e2f614846"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ef31541dd28ae2cefdd17c7ebf352d93e9058c63"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4fccff8382aafc589962c4edb262f6aa595e34f1e11e61057d1c6a96e8fc7323"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "02fcd16a30d0e68b3e9e4899731181c6abb7117baa15c096ca940e01dde08bb86101cbeae552c497f8a90d923b5fa2f2b6f3850baf8dc94dbd399887924a9069"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "88b0ecfde391a3d8468349c70e1539569768dfac3233dfe0b4660904df04e6c6bf26ed9c0784b9b22c122c3448e2a6b6"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "487b53f48b55b98a61ae60abedc43543887944867aa6bcb78d5ed46e2d0d7c19510c5fcadc362d939313feafdcfc55e1"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "3e79c8f58865d2d58a5311a8bb45772007f07e7f3ed2780784d1e4382dc934d0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ff32665e1b6d8176ccc7e8c836ca7343c2603dab053e42d79b4258d51a14ff63933c67d24034169ac91e11ebda21cc2c84a2a540072e656d2a8e6fcea7808421"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "http://github.com/stephenc/jcip-annotations/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/stephenc/jcip-annotations/tree/master/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar"
+    },
+    {
+      "publisher" : "Connect2id Ltd.",
+      "group" : "com.nimbusds",
+      "name" : "content-type",
+      "version" : "2.2",
+      "description" : "Java library for Content (Media) Type representation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "135aaa5ebcc12a45f4b3ff08cb6fa46a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9a894bce7646dd4086652d85b88013229f23724b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "730f1816196145e88275093c147f2e6da3c3e541207acd3503a1b06129b9bea9"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2b3d7dbf102645b1b6c11de967a877eddb95e8d38e4418cf0c4f7112720cab72f8af8a02c1e6a290ac737186bfb57d5c6db907ac6e7580c16c626f02bd7eeae9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c1cd98d963a191cd18cd3b7352d91e48ce5de7982a77f0cc4660b7281d309673815f41f9b2be397a816b61af87d7661a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b171815441fa1c9d8961a4e5de615f8888c23a5bc6c19380b3647ad3676e1aa1ebf7a3b63c3db9225d19249293ec5864"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "10a5860f4da5c00e83300378e3e65f92d70df4b18d2bbc2c3a97c75b7f9c922b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "bba6d712566f3e63ebcb998ee40b556004c50ac5e2cc818b01e45fd1d23929234ddb57097cc8897835810bba2d7332e0e429d5cb0fc54d5ab9d7e4715f88af17"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.nimbusds/content-type@2.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://connect2id.com"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://bitbucket.org/connect2id/nimbus-content-type"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.nimbusds/content-type@2.2?type=jar"
+    },
+    {
+      "group" : "org.apache.commons",
+      "name" : "commons-text",
+      "version" : "1.10.0",
+      "description" : "Apache Commons Text is a library focused on algorithms working on strings.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4afc9bfa2d31dbf7330c98fcc954b892"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3363381aef8cef2dbc1023b3e3a9433b08b64e01"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "770cd903fa7b604d1f7ef7ba17f84108667294b2b478be8ed1af3bffb4ae0018"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "afd836a1094449e0a791fee67363666c47b6d24acff353a5089b837b332c0f4af89565c354682521e37062d20e6b52d70c77bb4f24cca9b9532c274fc708a831"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "06c56e6e513dd77cf10d0da46cdea08c34e220e81fa024735b668c6650df4234e564fe865ff5cafea963f56b1e8ffd4a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f09065ed066c25debf8c78cbb0bcc738e1ea283302ec992dcfb649acb90091cff879465c65a162e94534d454e3b4e9bb"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0b59c567164bb755f2353b78ba66744000a8c4b35e1df05255b080a21c3a3dd5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f0fbce02a862b70f472a27d0722c54ac111ca2eb94584b8b0b73d1926aec26047cd92542ad0b3cf980a6825077587f41b194aa93d6f6350d1b87e59e8df1be7c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/TEXT"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-text.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar"
+    },
+    {
+      "publisher" : "Connect2id Ltd.",
+      "group" : "com.nimbusds",
+      "name" : "lang-tag",
+      "version" : "1.7",
+      "description" : "Java implementation of \"Tags for Identifying Languages\" (RFC 5646)",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "31b8a4f76fdbf21f1d667f9d6618e0b2"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "97c73ecd70bc7e8eefb26c5eea84f251a63f1031"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e8c1c594e2425bdbea2d860de55c69b69fc5d59454452449a0f0913c2a5b8a31"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "494267766c974ce16a99cb221953edc91fde8db0c920230758ecea0ea9d3006e95d86ad46f7a9d61b810d85b0fa6da9a3ce2b507cdbe4be320c499eaea93666b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "fdc2cde39a1b07a2542cbc07222afd6292ae19cb1f9ae008476f7ec1b8ebe1e3e84aca08e47e1ef81887a23ac5267d00"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b0e673087533f60173a11a55b0fde554c0830e7b3b6609e1ea6546de19fc9a97fbfe6eee73580d09b2de66989d0603c7"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ea208d4eb55212ce9835a9be60396861b0fc33f4161efee3736c3e7159acb9f7"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "450f819981d73711c30d838261ff55a7f1988c8b965c786708dc27fbd10a2018cfde82b8fee5d7d1022eacf085dfdabe22d9de92462eba80e2c15a116c3c73ed"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.nimbusds/lang-tag@1.7?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://connect2id.com/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://bitbucket.org/connect2id/nimbus-language-tags.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.nimbusds/lang-tag@1.7?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/net.minidev/accessors-smart@2.4.9?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.ow2.asm/asm@9.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.mendix/temp@1.0.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.nimbusds/oauth2-oidc-sdk@10.7.1?type=jar",
+        "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.30.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/net.minidev/json-smart@2.4.10?type=jar",
+      "dependsOn" : [
+        "pkg:maven/net.minidev/accessors-smart@2.4.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.nimbusds/oauth2-oidc-sdk@10.7.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.30.2?type=jar",
+        "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar",
+        "pkg:maven/com.nimbusds/content-type@2.2?type=jar",
+        "pkg:maven/net.minidev/json-smart@2.4.10?type=jar",
+        "pkg:maven/com.nimbusds/lang-tag@1.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.ow2.asm/asm@9.3?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.nimbusds/lang-tag@1.7?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.nimbusds/content-type@2.2?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}
